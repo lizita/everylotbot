@@ -149,6 +149,7 @@ Next, you want to set up the bot to tweet regularly. If this is a Linux machine,
 crontab -e
 1,31 * * * * $HOME/.local/bin/everylot screen_name $HOME/path/to/lots.db -s '{address} Anytown USA'
 ```
+If you want to use nano instead of vim as your editor, use ```EDITOR=nano crontab -e``` and just paste the second line inside.
 
 (Note that you can omit the `bots.yaml` config file argument if it's located in the home directory.)
 
